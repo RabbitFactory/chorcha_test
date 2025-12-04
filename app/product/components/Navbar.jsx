@@ -2,15 +2,18 @@ import React from 'react'
 
 const Navbar = () => {
   return (
-    <div className='flex p-4 items-center justify-around'>
+    <div className='flex p-4 items-center justify-between'>
         <div><img src="/logo.png" alt="" /></div>
-        <div className='flex items-center bg-white rounded-full px-6 py-2'>
-            <img src="/search1.png" alt="" />
-            <input className='bg-white p-2 rounded-full border-none placeholder-gray-400' placeholder='Search Products...' type="text" />
-            <img src="/search2.png" alt="" />
+        <div>
+            <ul className='flex gap-10'>
+                <li>ফিচারসমূহ</li>
+                <li>চর্চা সাফল্য</li>
+                <li>সাবস্ক্রিপশন</li>
+            </ul>
         </div>
-        <div>Cart</div>
-        <div>Login</div>
+        <div>
+            <button className='bg-[#017A47] rounded-2xl p-4 shadow-[0px_8px_0px_#004F2E]'>সাইন আপ করো</button>
+        </div>
     </div>
   )
 }
