@@ -5,7 +5,7 @@ const Navbar = () => {
     <div className='flex p-4 items-center justify-between'>
         <div><img src="/logo.png" alt="" /></div>
         <div>
-            <ul className='flex gap-10'>
+            <ul className='flex gap-10 flex-col md:flex-row'>
                 <li>ফিচারসমূহ</li>
                 <li>চর্চা সাফল্য</li>
                 <li>সাবস্ক্রিপশন</li>

@@ -2,7 +2,7 @@ import React from 'react'
 
 const Hero = () => {
   return (
-    <div className='flex gap-40 justify-center items-center mt-32'>
+    <div className='flex flex-col md:flex-row gap-40 justify-center items-center mt-32'>
         <div className='max-w-[500px] space-y-4'>
             <h1 className='text-5xl'>চর্চা করো নিজের গতিতে</h1>
             <p>সিলেবাসের যেকোন টপিক থেকে প্রশ্ন খুঁজে প্র্যাকটিস করো, AI দিয়ে ব্যাখ্যা বুঝে নাও, আর মক টেস্ট দিয়ে নিজের প্রস্তুতি মাপো।</p>
