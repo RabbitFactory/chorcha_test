@@ -10,7 +10,11 @@ const Hero = () => {
                 <img src="/store.png" alt="" />
             <img src="/apple.png" alt="" />
             </div>
-            <p>100k+ downloads |       4.6 Rating with over 8k Reviews</p>
+            <div className='flex gap-2 items-center'>
+                <p>100k+ downloads | </p>
+            <img className='h-4 w-4' src="/Vector.png" alt="" />
+            <p>4.6 Rating with over 8k Reviews</p>
+            </div>
         </div>
         <div>
             <img className='w-64' src="/Mockup 2.png" alt="" />
